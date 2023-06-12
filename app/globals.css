@@ -2,26 +2,65 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.nav{
+    background: #37383724;
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 4px );
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.icon{
+    transition: 200ms all ease-in-out;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.icon:hover{
+    color: #EFFE0B !important;
+    transform: translateY(-5px);
+
+}
+
+.list::after{
+    content: "";
+    height: 90px;
+    width: 1px;
+    display: block;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.email-side {
+    display: flex;
+    margin-right: -80px;
+}
+
+.email-side a:hover{
+    transform: translateX(5px);
+}
+
+.email-side::before{
+    content: "";
+    height: 1px;
+    width: 90px;
+    display: block;
+    background-color: white;
+    margin: auto;
+}
+
+@layer utilities{
+    .animation-delay-2000{
+        animation-delay: 2s ;
+    }
+    .animation-delay-4000 {
+        animation-delay: 4s;
+    }
+
+    .animation-delay-1000 {
+        animation-delay: 1s;
+    }
+}
+
+.grads{
+    background: #FC466B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
