@@ -1,5 +1,5 @@
-import { FiGithub, FiInstagram, FiLinkedin, FiMail } from 'react-icons/fi'
-import { SiGmail, SiLeetcode } from 'react-icons/si'
+import { FiGithub, FiInstagram, FiLinkedin } from 'react-icons/fi'
+import {  SiLeetcode } from 'react-icons/si'
 export default function SocialLinks() {
     return(
         <>
