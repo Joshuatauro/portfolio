@@ -81,4 +81,8 @@ body::before{
     .para-text{
         @apply font-medium text-fade-primary text-lg 
     }
+
+    .section-heading-text{
+        @apply text-primary font-semibold text-3xl
+    }
 }

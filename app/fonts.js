@@ -1,6 +1,5 @@
 import { Inter, Cherry_Swash } from 'next/font/google'
- 
-export const inter = Inter({
+ export const inter = Inter({
   subsets: ['latin'],
   display: 'swap',
 })

@@ -1,8 +1,10 @@
+"use client"
 import "./globals.css";
 import { Cherry_Swash, Inter } from "next/font/google";
 
 import { inter } from "./fonts";
 import SocialLinks from "@/components/SocialLinks";
+import Navbar from "@/components/Navbar";
 
 export const metadata = {
   title: "Joshua Tauro || Fullstack Developer",
@@ -10,11 +12,15 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+
   return (
     <html lang="en">
       <body className={inter.className}>
         <SocialLinks />
-        {children}
+        <div className=" w-2/4 pt-5 m-auto relative">
+          <Navbar />
+          {children}
+        </div>
       </body>
     </html>
   );

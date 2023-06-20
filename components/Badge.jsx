@@ -1,10 +1,10 @@
 
-export default function Badge({icon, color, text}) {
-    const bg = 'border-'+color
+export default function Badge({icon, textColor, text, borderColor, bgColor}) {
+
     return(
-        <div className={`text-xs ml-2 uppercase ${bg} border-2 text-cta bg-cta bg-opacity-[0.12] font-semibold py-1 px-2 rounded-md flex items-center`}>
+        <span className={`text-xs uppercase ${textColor} ${borderColor} ${bgColor} border-2 bg-opacity-[0.12] font-semibold py-1 px-2 rounded-md flex items-center w-fit`}>
             {icon}
             <p className="ml-1">{text}</p>
-        </div>
+        </span>
     )
 }
