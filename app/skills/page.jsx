@@ -135,7 +135,7 @@ export default function Skills() {
                     }
                 </div>
                 <h2 className={`${cherry.className} section-heading-text mt-10` }>Backend</h2>
-                <p className="para-text mb-3">I have always had a huge interest in learning the server side of things, building my own API's and </p>
+                <p className="para-text mb-3">I have always had a huge interest in learning the server side of things, building my own API's and understanding the architecture of various different sites that handle huge amounts of traffic everyday without any lag.</p>
                 <div className="flex gap-2">
                     {
                         backend.map(({icon, textColor, bgColor, borderColor, text}) => <Badge icon={icon}  text={text} textColor={textColor} bgColor={bgColor} borderColor={borderColor} />)

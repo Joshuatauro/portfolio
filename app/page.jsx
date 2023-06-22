@@ -15,7 +15,7 @@ export default function Home() {
     },
     {
       title: "Ecommed",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, maxime debitis voluptatum sapiente quisquam quam tempora ratione laboriosam fugiat nobis. Numquam fuga eveniet magnam ullam soluta iusto perferendis ipsa possimus?",
+      desc: "Ecommed is a fullstack ecommerce platform that provides a wide variety of products that users can browse through and add to cart/wishlist, leave reviews and ratings and many more features",
       imgURL: "/ecom.png",
       url: "ecom"
     }
