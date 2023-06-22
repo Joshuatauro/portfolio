@@ -1,4 +1,3 @@
-"use client"
 import "./globals.css";
 import { Cherry_Swash, Inter } from "next/font/google";
 
