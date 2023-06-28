@@ -1,7 +1,7 @@
-import {SunIcon} from '@heroicons/react/24/outline'
-import Link from 'next/link'
- 
+import Link from "next/link"
+import { FiUser } from "react-icons/fi"
 export default function Navbar(){
+
     return (
         <nav className="nav px-5 py-2 rounded-md sticky z-50 top-10 flex justify-between items-center text-white">
             <Link href="/">
@@ -17,7 +17,7 @@ export default function Navbar(){
                 <Link href="/projects">
                     <li className="font-medium capitalize mx-2 py-2">projects</li>
                 </Link>
-                <Link href="/contact">
+                <Link href="/certifications">
                     <li className="font-medium capitalize mx-2 py-2">certificates</li>
                 </Link>
             </ul>
