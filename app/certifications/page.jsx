@@ -21,7 +21,7 @@ export default function Certifications({isWinner}) {
     return(
         <div className="text-white mt-32 min-h-screen">
             <h1 className={`heading-text ${cherry.className} text-cta`}>My Wins</h1>
-            <p className="para-text mt-2 mb-10">I have always loved participating in various different competitions whenever the opportunity arises, as such, I am extremely happy to have won quite a handful of those events, here are a few highlights of my wins :)</p>
+            <p className="para-text mt-2 mb-10">I have always loved participating in various different competitions whenever the opportunity arises, as such, I am extremely happy to have won quite a handful of those events, here are a few highlights of my wins :) </p>
             {certs.map(({title, url, desc}) => <CertShowcase title={title} url={url} desc={desc} />)}
         </div>
     )
