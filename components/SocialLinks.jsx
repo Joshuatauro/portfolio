@@ -1,3 +1,4 @@
+import { FaRegKeyboard } from 'react-icons/fa'
 import { FiGithub, FiInstagram, FiLinkedin } from 'react-icons/fi'
 import {  SiLeetcode } from 'react-icons/si'
 export default function SocialLinks() {
@@ -23,6 +24,11 @@ export default function SocialLinks() {
                 <li className="mb-7">
                     <a href="https://leetcode.com/joshuatauro45/" target="_blank" rel="noreferrer">
                         <SiLeetcode color="white" size={20} className='icon' />
+                    </a>
+                </li>
+                <li className="mb-7">
+                    <a href="https://monkeytype.com/profile/joshuatauro45" target="_blank" rel="noreferrer">
+                        <FaRegKeyboard color="white" size={22} className='icon' />
                     </a>
                 </li>
                 

@@ -14,9 +14,9 @@ export default function Navbar(){
                 <Link href="/skills">
                     <li className="font-medium capitalize mx-2 py-2">skills</li>
                 </Link>
-                <Link href="/projects">
+                {/* <Link href="/projects">
                     <li className="font-medium capitalize mx-2 py-2">projects</li>
-                </Link>
+                </Link> */}
                 <Link href="/certifications">
                     <li className="font-medium capitalize mx-2 py-2">certificates</li>
                 </Link>

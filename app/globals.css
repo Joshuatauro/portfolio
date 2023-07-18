@@ -48,7 +48,7 @@
 body{
     background: linear-gradient(to top right,#18181B,#1f1f1f) !important;
 }
-
+/* 
 body::before{
     background-image: url("/grid.svg");
     background-repeat: repeat;
@@ -58,7 +58,7 @@ body::before{
     height: 100%;
     content: "";
     opacity: 0.2;
-}
+} */
 
 @layer utilities{
     .animation-delay-2000{
