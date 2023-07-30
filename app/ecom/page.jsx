@@ -55,7 +55,7 @@ export default function Ecom() {
             <br />
             <p className="para-text">Keep track of status of all of their orders be it current orders that are en-route or orders that they have successfully ordered in the past</p>
             <h2 className={`section-heading-text ${cherry.className} mt-10 `}>Tech Stack</h2>
-            <div className="flex gap-2 mt-2">
+            <div className="flex flex-wrap gap-2 mt-2">
                 {
                     tech.map(({icon, textColor, borderColor, bgColor, text}) => <Badge icon={icon} bgColor={bgColor} text={text} textColor={textColor} borderColor={borderColor} />)
                 }

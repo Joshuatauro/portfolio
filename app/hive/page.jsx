@@ -61,7 +61,7 @@ export default function Hive() {
             <br/>
             <p className="para-text">Any and all important data anyone would need in regards to finalize a college provided together in a central place, be it anything from Fee's to Placement's to College Fests, all this would easily be accessible</p>
             <h2 className={`section-heading-text ${cherry.className} mt-10 `}>Tech Stack</h2>
-            <div className="flex gap-2 mt-2">
+            <div className="flex flex-wrap gap-2 mt-2">
                 {
                     tech.map(({icon, textColor, borderColor, bgColor, text}) => <Badge icon={icon} bgColor={bgColor} text={text} textColor={textColor} borderColor={borderColor} />)
                 }
