@@ -13,7 +13,7 @@ export default function AboutMe() {
     }, [])
     return(
         <div className="min-h-screen">
-            <div className="mt-32">
+            <div className="my-32">
                 <h1 className={`${cherry.className} heading-text  text-cta`}>About me</h1>
                 <p className="para-text mt-1">Hey there, my name's Joshua Tauro. I am currently {age} years old and pursuing my Bachelors of Techology in CSE at <a className="text-white underline decoration-cta underline-offset-4 hover:text-cta duration-200 transition-all" href="https://sit.ac.in" target="_blank" rel="noreferrer">Siddaganga Institute of Technology</a>.</p>
                 <br/>

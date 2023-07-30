@@ -50,7 +50,7 @@ export default function Home() {
         <div className="mt-32 pb-32">
           <h1 className={`${cherry.className} heading-text text-primary`}>Contact Me</h1>
           <p className="para-text mt-1 mb-8">As a passionate college student, I'm eager to connect and explore opportunities in my field. Whether it's a collaboration request, internship, or simply a chance to network, I'm excited to hear from you :)</p>
-          <a href="mailto:joshuatauro45@gmail.com" className={`uppercase text-3xl font-medium decoration-cta underline underline-offset-4 duration-200 transition-all hover:text-cta `}>joshuatauro45@gmail.com</a>
+          <a href="mailto:joshuatauro45@gmail.com" className={`uppercase text-xl break-all md:text-3xl font-medium decoration-cta underline underline-offset-4 duration-200 transition-all hover:text-cta `}>joshuatauro45@gmail.com</a>
       </div>
 
     </main>

@@ -4,7 +4,7 @@ import {  SiLeetcode } from 'react-icons/si'
 export default function SocialLinks() {
     return(
         <>
-        <div className="fixed bottom-0 ml-14">
+        <div className=" md:block hidden fixed bottom-0 ml-14">
             <ul className='list'>
                 <li className="mb-7">
                     <a href="http://github.com/joshuatauro" target="_blank" rel="noreferrer">
@@ -35,7 +35,7 @@ export default function SocialLinks() {
 
             </ul>
         </div>
-        <div className="fixed top-[8.4rem] right-0">
+        <div className="fixed md:block hidden top-[8.4rem] right-0">
             <div className="email-side rotate-90">
                 <a href="mailto:joshuatauro45@gmail.com" className='ml-7 text-white hover:text-cta  transition duration-200 ease-in-out'>joshuatauro45@gmail.com</a>
             </div>

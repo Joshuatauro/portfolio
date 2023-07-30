@@ -75,11 +75,11 @@ body::before{
 
 @layer components{
     .heading-text{
-        @apply font-bold text-6xl
+        @apply font-bold md:text-6xl text-4xl
     }
 
     .para-text{
-        @apply font-medium text-fade-primary text-lg 
+        @apply font-medium text-fade-primary md:text-lg text-base 
     }
 
     .section-heading-text{

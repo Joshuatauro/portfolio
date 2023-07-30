@@ -129,7 +129,7 @@ export default function Skills() {
                 </div>
                 <h2 className={`${cherry.className} section-heading-text mt-10` }>Frontend</h2>
                 <p className="para-text mb-3">My favorite part of Web Development i'd say, I absolutely love creating functional and minimalistic websites that users from all over the world can have a good time using. You'll mostly catch me hands deep in these languages</p>
-                <div className="flex gap-2">
+                <div className="flex flex-wrap gap-2">
                     {
                         frontend.map(({icon, textColor, bgColor, borderColor, text}) => <Badge icon={icon}  text={text} textColor={textColor} bgColor={bgColor} borderColor={borderColor} />)
                     }
